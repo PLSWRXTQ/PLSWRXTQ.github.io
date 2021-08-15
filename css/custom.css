@@ -105,7 +105,7 @@ body {
 
 #footer-hidden-input:checked ~ address {
     max-height: 0;
-    padding: 0;
+    padding: 0 1%;
 }
 
 #footer-hidden-input:checked + label>i {
