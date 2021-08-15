@@ -24,7 +24,90 @@ body {
     font-family: Consolas, monospace;
 }
 
-#nav {
-    height: 5%;
+#top-nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: auto;
     background-color: #2e4d2e;
+}
+
+#top-nav a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: floralwhite;
+    text-decoration: none;
+}
+
+#container {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main-content {
+    width: 60%;
+    height: 100%;
+    background-color: floralwhite;
+}
+
+.card {
+    width: 160px;
+    height: 200px;
+    margin: 50px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    box-shadow: 0 0 8px rgb(0, 0, 0, .5);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer address {
+    height: 80px;
+    padding: 1%;
+    max-height: 80px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: floralwhite;
+    background-color: #2e4d2e;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+#footer a {
+    font-weight: bold;
+    color: floralwhite;
+    text-decoration: none;
+}
+
+#footer-hidden-input {
+    display: none;
+}
+
+#footer-hidden-label {
+    padding: 20px;
+    background-color: #2e4d2e;
+}
+
+#footer-hidden-label i {
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+
+#footer-hidden-input:checked ~ address {
+    max-height: 0;
+    padding: 0;
+}
+
+#footer-hidden-input:checked + label>i {
+    transform: rotate(180deg);
 }
