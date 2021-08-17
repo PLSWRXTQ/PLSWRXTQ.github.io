@@ -46,11 +46,17 @@ body {
 }
 
 #top-nav a {
+    padding: 15px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     color: floralwhite;
     text-decoration: none;
+}
+
+#top-nav a:hover {
+    color: #2e4d2e;
+    background-color: floralwhite;
 }
 
 #container {
@@ -71,7 +77,7 @@ body {
     margin: 50px;
     padding: 20px;
     border-radius: 30px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     box-shadow: 0 0 8px rgb(0, 0, 0, .5);
 }
 
