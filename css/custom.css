@@ -27,12 +27,12 @@ body {
 }
 
 #header h1 {
-    font-size: 70px;
+    font-size: 65px;
     font-family: Courier;
 }
 
 #header p {
-    font-size: 25px;
+    font-size: 20px;
     font-family: Consolas, monospace;
 }
 
