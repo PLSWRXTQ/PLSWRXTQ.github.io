@@ -37,7 +37,7 @@ body {
 
 #header p {
     font-size: 20px;
-    font-family: Consolas, monospace;
+    font-family: Consolas, SimHei, monospace;
 }
 
 #top-nav {
@@ -149,7 +149,7 @@ body {
 .card p {
     margin: 10px;
     font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', SimHei, serif;
 }
 
 #footer address {
