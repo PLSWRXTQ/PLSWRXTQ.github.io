@@ -69,9 +69,6 @@ body {
     display: inline-block;
     width: 15px;
     height: 15px;
-    background-image: url('/img/logo-f.png');
-    background-position: center center;
-    background-size: 15px 15px;
     filter: drop-shadow(floralwhite 80px 0);
     transform: translateX(-80px);
 }
