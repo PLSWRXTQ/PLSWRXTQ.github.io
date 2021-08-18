@@ -53,6 +53,7 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     color: floralwhite;
+    overflow: hidden;
 }
 
 #top-nav > a * {
@@ -62,6 +63,21 @@ body {
 #top-nav > a:hover {
     color: #2e4d2e;
     background-color: floralwhite;
+}
+
+.t-icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('/img/logo-f.png');
+    background-position: center center;
+    background-size: 15px 15px;
+    filter: drop-shadow(floralwhite 80px 0);
+    transform: translateX(-80px);
+}
+
+#top-nav > a:hover .t-icon {
+    filter: drop-shadow(#2e4d2e 80px 0);
 }
 
 .dropdown {
