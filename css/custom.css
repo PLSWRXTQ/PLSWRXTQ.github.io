@@ -118,11 +118,11 @@ body {
 }
 
 #main-content {
-    width: 100vmin;
+    width: 150vmin;
     height: 100%;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-content: space-evenly;
 }
 
