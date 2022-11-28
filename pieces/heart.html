@@ -49,9 +49,9 @@
 
 <body>
   <canvas id="pinkboard"></canvas>
-  <!--<audio id="music" style="display: none;" autoplay loop preload
-    src="http://music.163.com/song/media/outer/url?id=9442015.mp3">
-  </audio>-->
+  <audio id="music" style="display: none;" autoplay loop preload
+    src="http://music.163.com/song/media/outer/url?id=1494985963.mp3">
+  </audio>
   <script>
     var settings = {
       particles: {
@@ -264,7 +264,7 @@
 
     window.onresize = onResize
     window.onload = () => {
-      // setInterval(() => music.paused && music.play(), 1)
+      setInterval(() => music.paused && music.play(), 1)
       // delay rendering bootstrap
       setTimeout(function() {
         onResize()
